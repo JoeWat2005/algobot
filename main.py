@@ -1,5 +1,10 @@
 from market.data_loader import Market
+from strategies.moving_average import *
+
+from market.data_loader import Market
 
 market = Market()
-data = market.get_data("AAPL", "2020-01-01", "2024-01-01")
-print(data.head)
+all_data = market.get_all_data()
+
+for ticker, df in all_data.items():
+    print(f"{ticker}: {df.shape}")
