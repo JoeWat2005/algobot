@@ -1,11 +1,9 @@
 from market.data_loader import Market
-from strategies.strategies.moving_average import MovingAverageCrossoverStrategy
 from backtester.simulator import Backtester
 
 market = Market()
 data = market.get_all_data()
 
-strategy = MovingAverageCrossoverStrategy()
 backtester = Backtester()
 
 for ticker, df in data.items():

@@ -1,8 +1,8 @@
 from strategies.base import Strategy
 import pandas as pd
 
-class MovingAverageCrossoverStrategy(Strategy):
-    def __init__(self, short_window = 10, long_window = 30):
+class MovingAverageCrossover(Strategy):
+    def __init__(self, short_window=50, long_window=200):
         self.short_window = short_window
         self.long_window = long_window
 
