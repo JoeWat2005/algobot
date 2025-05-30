@@ -4,7 +4,10 @@ import pandas as pd
 class AccumulationDistributionStrategy(Strategy):
     def generate_signals(self, data: pd.DataFrame) -> pd.DataFrame:
         df = data.copy()
-        clv = ((df['Close'] - df['Low']) - (df['High'] - df['Close'])) / (df['High'] - df['Low'])
+        range_ = df['High'] - df['Low']
+        range_ = range_.replace(0, 1e-10)  # Avoid division by zero
+
+        clv = ((df['Close'] - df['Low']) - (df['High'] - df['Close'])) / range_
         adl = (clv * df['Volume']).cumsum()
         df['adl'] = adl
         df['adl_ema'] = df['adl'].ewm(span=20).mean()

@@ -21,8 +21,8 @@ class ADXStrategy(Strategy):
         tr = pd.concat([tr1, tr2, tr3], axis=1).max(axis=1)
 
         atr = tr.rolling(self.period).mean()
-        plus_di = 100 * (pd.Series(plus_dm).rolling(self.period).sum() / atr)
-        minus_di = 100 * (pd.Series(minus_dm).rolling(self.period).sum() / atr)
+        plus_di = 100 * (pd.Series(plus_dm, index=df.index).rolling(self.period).sum() / atr)
+        minus_di = 100 * (pd.Series(minus_dm, index=df.index).rolling(self.period).sum() / atr)
         dx = (abs(plus_di - minus_di) / (plus_di + minus_di)) * 100
         adx = dx.rolling(self.period).mean()
 

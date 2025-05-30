@@ -8,10 +8,13 @@ class ZScoreStrategy(Strategy):
 
     def generate_signals(self, data: pd.DataFrame) -> pd.DataFrame:
         df = data.copy()
+        df['signal'] = 0
+
         df['mean'] = df['Close'].rolling(self.period).mean()
         df['std'] = df['Close'].rolling(self.period).std()
         df['zscore'] = (df['Close'] - df['mean']) / df['std']
-        df['signal'] = 0
+
         df.loc[df['zscore'] > self.threshold, 'signal'] = -1
         df.loc[df['zscore'] < -self.threshold, 'signal'] = 1
+
         return df

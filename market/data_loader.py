@@ -1,14 +1,17 @@
 import json
 import yfinance as yf
 import pandas as pd
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 class Market:
-    def __init__(self, config_path="data/tickers.json"):
+    def __init__(self, config_path="data/tickers.json", max_retries=5, retry_delay=2):
         self.config_path = config_path
         self.tickers = []
         self.start_date = ""
         self.end_date = ""
+        self.max_retries = max_retries
+        self.retry_delay = retry_delay
         self._load_config()
 
     def _load_config(self):
@@ -19,14 +22,21 @@ class Market:
         self.end_date = config.get("end_date", "2024-01-01")
 
     def _download_single_ticker(self, ticker):
-        try:
-            print(f"Downloading {ticker}...")
-            df = yf.download(ticker, start=self.start_date, end=self.end_date, auto_adjust=True, progress=False)
-            df.dropna(inplace=True)
-            return ticker, df
-        except Exception as e:
-            print(f"Failed to download {ticker}: {e}")
-            return ticker, None
+        for attempt in range(1, self.max_retries + 1):
+            try:
+                print(f"[{ticker}] Attempt {attempt}/{self.max_retries}...")
+                df = yf.download(ticker, start=self.start_date, end=self.end_date, auto_adjust=True, progress=False)
+                df.dropna(inplace=True)
+                if not df.empty:
+                    print(f"[{ticker}] Download successful.")
+                    return ticker, df
+                else:
+                    print(f"[{ticker}] Empty DataFrame received.")
+            except Exception as e:
+                print(f"[{ticker}] Attempt {attempt} failed: {e}")
+            time.sleep(self.retry_delay)
+        print(f"[{ticker}] All {self.max_retries} attempts failed.")
+        return ticker, None
 
     def get_all_data(self, max_workers=64):
         data = {}

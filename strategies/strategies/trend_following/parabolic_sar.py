@@ -31,14 +31,12 @@ class ParabolicSARStrategy(Strategy):
                     af = self.af_step
                     hp = df['High'].iloc[i]
 
-            if bull:
-                if df['High'].iloc[i] > hp:
-                    hp = df['High'].iloc[i]
-                    af = min(af + self.af_step, self.af_max)
-            else:
-                if df['Low'].iloc[i] < ep:
-                    ep = df['Low'].iloc[i]
-                    af = min(af + self.af_step, self.af_max)
+            if bull and df['High'].iloc[i] > hp:
+                hp = df['High'].iloc[i]
+                af = min(af + self.af_step, self.af_max)
+            elif not bull and df['Low'].iloc[i] < ep:
+                ep = df['Low'].iloc[i]
+                af = min(af + self.af_step, self.af_max)
 
         df['psar'] = psar
         df['signal'] = 0

@@ -7,7 +7,10 @@ class ChaikinMoneyFlowStrategy(Strategy):
 
     def generate_signals(self, data: pd.DataFrame) -> pd.DataFrame:
         df = data.copy()
-        mf_multiplier = ((df['Close'] - df['Low']) - (df['High'] - df['Close'])) / (df['High'] - df['Low'])
+        range_ = df['High'] - df['Low']
+        range_ = range_.replace(0, 1e-10)  # Prevent division by zero
+
+        mf_multiplier = ((df['Close'] - df['Low']) - (df['High'] - df['Close'])) / range_
         mf_volume = mf_multiplier * df['Volume']
         df['cmf'] = mf_volume.rolling(self.period).sum() / df['Volume'].rolling(self.period).sum()
         df['signal'] = 0

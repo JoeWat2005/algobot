@@ -12,6 +12,7 @@ class QuantileBandsStrategy(Strategy):
         df['lower_quantile'] = df['Close'].rolling(self.window).quantile(self.lower_q)
         df['upper_quantile'] = df['Close'].rolling(self.window).quantile(self.upper_q)
         df['signal'] = 0
+
         df.loc[df['Close'] < df['lower_quantile'], 'signal'] = 1
         df.loc[df['Close'] > df['upper_quantile'], 'signal'] = -1
         return df

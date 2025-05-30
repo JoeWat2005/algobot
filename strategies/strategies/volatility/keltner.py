@@ -10,11 +10,13 @@ class KeltnerChannelStrategy(Strategy):
         df = data.copy()
         df['typical_price'] = (df['High'] + df['Low'] + df['Close']) / 3
         df['ma'] = df['typical_price'].rolling(self.period).mean()
+
         tr1 = df['High'] - df['Low']
         tr2 = abs(df['High'] - df['Close'].shift())
         tr3 = abs(df['Low'] - df['Close'].shift())
         df['tr'] = pd.concat([tr1, tr2, tr3], axis=1).max(axis=1)
         df['atr'] = df['tr'].rolling(self.period).mean()
+
         df['upper_band'] = df['ma'] + self.atr_multiplier * df['atr']
         df['lower_band'] = df['ma'] - self.atr_multiplier * df['atr']
         df['signal'] = 0

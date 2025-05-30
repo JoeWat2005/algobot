@@ -10,7 +10,7 @@ class CCIStrategy(Strategy):
         df = data.copy()
         tp = (df['High'] + df['Low'] + df['Close']) / 3
         ma = tp.rolling(self.period).mean()
-        md = tp.rolling(self.period).apply(lambda x: abs(x - x.mean()).mean())
+        md = tp.rolling(self.period).apply(lambda x: abs(x - x.mean()).mean(), raw=False)
         df['cci'] = (tp - ma) / (0.015 * md)
         df['signal'] = 0
         df.loc[df['cci'] > self.threshold, 'signal'] = -1
