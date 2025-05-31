@@ -1,65 +1,7 @@
 
-[2025-05-30 22:09:01.545263] Starting strategy processing...
+[2025-05-31 11:56:42.795591] Starting strategy processing...
 [AAPL] Attempt 1/5...
-[MSFT] Attempt 1/5...
-[GOOGL] Attempt 1/5...
-[AMZN] Attempt 1/5...
-[TSLA] Attempt 1/5...[META] Attempt 1/5...
-
-[NVDA] Attempt 1/5...
-[BRK-B] Attempt 1/5...
-[JPM] Attempt 1/5...
-[V] Attempt 1/5...
-[JNJ] Attempt 1/5...
-[WMT] Attempt 1/5...
-[PG] Attempt 1/5...
-[MA] Attempt 1/5...
-[UNH] Attempt 1/5...
-[HD] Attempt 1/5...[DIS] Attempt 1/5...
-
-[PFE] Attempt 1/5...
-[BAC] Attempt 1/5...
-[PEP] Attempt 1/5...
-[XOM] Attempt 1/5...
-[KO] Attempt 1/5...
-[INTC] Attempt 1/5...
-[CVX] Attempt 1/5...
-[NFLX] Attempt 1/5...
-[CSCO] Attempt 1/5...
-[NKE] Attempt 1/5...[ADBE] Attempt 1/5...
-[CRM] Attempt 1/5...
-[T] Attempt 1/5...
-
-[NFLX] Download successful.
-[ADBE] Download successful.
-[CSCO] Download successful.
-[AMZN] Download successful.
-[WMT] Download successful.
-[TSLA] Download successful.[PFE] Download successful.[BAC] Download successful.[PG] Download successful.[UNH] Download successful.
-[V] Download successful.[NKE] Download successful.[AAPL] Download successful.[INTC] Download successful.
-[CRM] Download successful.[GOOGL] Download successful.
-[PEP] Download successful.[NVDA] Download successful.[T] Download successful.
-[MA] Download successful.[XOM] Download successful.[DIS] Download successful.[JPM] Download successful.[MSFT] Download successful.
-
-[CVX] Download successful.[HD] Download successful.
-[KO] Download successful.[JNJ] Download successful.
-
-[BRK-B] Download successful.
-
-[META] Download successful.
-
-
-
-
-
-
-
-
-
-
-
-
-
+[AAPL] Download successful.
 [INFO] Loaded strategy: MLStubStrategy from strategies.custom.ml_pred_stub
 [INFO] Loaded strategy: PatternRecognizerStrategy from strategies.custom.pattern_recogniser
 [INFO] Loaded strategy: QuantileBandsStrategy from strategies.custom.quantile_bands
@@ -82,1027 +24,546 @@
 [INFO] Loaded strategy: StdDevStrategy from strategies.volatility.stddev
 [INFO] Loaded strategy: AccumulationDistributionStrategy from strategies.volume.adl
 [INFO] Loaded strategy: ChaikinMoneyFlowStrategy from strategies.volume.chaikin
-[INFO] Loaded strategy: ATRStrategy from strategies.volume.obv
+[INFO] Loaded strategy: OBRStrategy from strategies.volume.obv
 [INFO] Loaded strategy: VolumeOscillatorStrategy from strategies.volume.volume_oscillator
-Error processing ADBE with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candleError processing NFLX with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candle
-Error processing AMZN with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candle
-Error processing CSCO with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candleError processing TSLA with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candle
-Error processing WMT with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candle
-Error processing PFE with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candleError processing PG with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candle
-Error processing NFLX with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantileError processing ADBE with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantile
-Error processing AAPL with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candle
-Error processing AMZN with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantileError processing V with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candleError processing INTC with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candle
-Error processing TSLA with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantileError processing PG with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantileError processing CSCO with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantile
-Error processing GOOGL with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candleError processing PEP with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candleError processing NVDA with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candleError processing PFE with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantileError processing MA with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candleError processing XOM with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candle
-Error processing JPM with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candleError processing NFLX with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing ADBE with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing AMZN with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing CRM with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candleError processing HD with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candle
-Error processing KO with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candle
-Error processing NKE with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candleError processing V with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantileError processing DIS with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candle
-Error processing PG with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing MSFT with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candleError processing BAC with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candleError processing TSLA with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing UNH with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candleError processing GOOGL with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantileError processing WMT with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantile
-Error processing T with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candle
-Error processing NVDA with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantileError processing JNJ with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candleError processing XOM with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantile
-Error processing BRK-B with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candle
-Error processing META with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candleError processing INTC with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantile
-Error processing CVX with PatternRecognizerStrategy: Cannot set a DataFrame with multiple columns to the single column candleError processing PEP with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantileError processing CSCO with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing AAPL with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantileError processing HD with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantile
 
-Error processing PFE with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing MA with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantile
-Error processing PG with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channel
-
-Error processing DIS with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantileError processing TSLA with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channel
-Error processing BAC with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantile
-Error processing AMZN with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channel
-Error processing GOOGL with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column meanError processing WMT with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing XOM with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-
-Error processing JNJ with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantile
-
-Error processing PEP with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-
-Error processing META with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantile
-Error processing PFE with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channelError processing KO with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantileError processing HD with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column meanError processing CVX with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantileError processing JPM with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantile
-
-Error processing ADBE with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channel
-
-
-Error processing UNH with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantile
-
-
-
-Error processing DIS with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column meanError processing T with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantileError processing GOOGL with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channelError processing CRM with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantile
-
-
-Error processing BRK-B with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantile
-Error processing PEP with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channelError processing AAPL with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column meanError processing WMT with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channel
-
-Error processing JNJ with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing MA with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing XOM with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channelError processing KO with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column meanError processing CVX with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing NVDA with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column meanError processing PFE with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-
-
-Error processing AMZN with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column maError processing TSLA with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column maError processing UNH with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing DIS with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channelError processing V with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-
-Error processing T with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing UNH with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channel
-
-Error processing HD with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channelError processing META with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column meanError processing WMT with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-Error processing PG with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-Error processing JNJ with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channel
-
-Error processing BAC with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-
-
-
-Error processing NKE with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantile
-Error processing KO with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channel
-Error processing INTC with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing NFLX with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channel
-
-Error processing PFE with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_senError processing MSFT with QuantileBandsStrategy: Cannot set a DataFrame with multiple columns to the single column lower_quantileError processing BRK-B with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing CRM with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing T with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channelError processing TSLA with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_senError processing ADBE with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-Error processing AAPL with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channel
-Error processing META with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channel
-
-Error processing PG with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_sen
-
-Error processing CVX with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channel
-
-Error processing NKE with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column meanError processing JNJ with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column maError processing NVDA with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channel
-Error processing PEP with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-Error processing KO with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-
-Error processing UNH with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column maError processing AMZN with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_sen
-Error processing JPM with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing BRK-B with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channelError processing MSFT with ZScoreStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing CRM with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channelError processing MA with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channel
-
-
-
-Error processing ADBE with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_sen
-Error processing XOM with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column maError processing BAC with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channel
-Error processing DIS with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-Error processing GOOGL with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-Error processing NKE with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channel
-Error processing CVX with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-Error processing NFLX with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column maError processing HD with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-
-Error processing WMT with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_sen
-
-
-
-
-Error processing META with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column maError processing BRK-B with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column maError processing MSFT with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channelError processing UNH with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_sen
-
-Error processing CSCO with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channel
-Error processing INTC with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channel
-Error processing PFE with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cci
-Error processing V with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channelError processing XOM with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_sen
-Error processing DIS with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_senError processing TSLA with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cci
-
-Error processing GOOGL with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_sen
-
-Error processing KO with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_sen
-Error processing HD with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_sen
-Error processing CVX with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_senError processing AAPL with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column maError processing NFLX with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_sen
-
-
-
-Error processing MSFT with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-Error processing CRM with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column maError processing PFE with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentumError processing META with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_sen
-Error processing JNJ with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_senError processing INTC with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column maError processing CSCO with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-
-
-
-Error processing V with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-
-
-
-Error processing PG with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cci
-
-Error processing BRK-B with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_senError processing JPM with DonchianChannelStrategy: Cannot set a DataFrame with multiple columns to the single column upper_channel
-Error processing BAC with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-Error processing AAPL with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_sen
-
-Error processing PFE with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column roc
-Error processing NKE with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column maError processing XOM with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cciError processing T with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column maError processing PEP with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_sen
-
-
-Error processing ADBE with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cci
-
-Error processing GOOGL with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cciError processing DIS with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cci
-Error processing PG with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentum
-Error processing CSCO with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_senError processing V with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_sen
-Error processing UNH with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cci
-
-Error processing TSLA with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentumError processing HD with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cciError processing JPM with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-
-Error processing XOM with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentumError processing AMZN with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cci
-
-
-Error processing WMT with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cciError processing NFLX with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cci
-Error processing NVDA with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column maError processing NKE with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_sen
-Error processing DIS with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentum
-Error processing BRK-B with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cci
-
-Error processing UNH with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentumError processing CRM with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_sen
-Error processing PG with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column roc
-Error processing META with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cci
-
-
-Error processing TSLA with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column roc
-Error processing CVX with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cciError processing XOM with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column roc
-Error processing WMT with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentum
-Error processing PEP with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cciError processing JNJ with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cciError processing AAPL with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cci
-Error processing MSFT with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_sen
-
-
-Error processing PFE with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsiError processing JPM with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_sen
-Error processing NVDA with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_senError processing BAC with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_sen
-Error processing UNH with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column rocError processing KO with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cciError processing HD with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentum
-
-Error processing ADBE with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentum
-
-Error processing CVX with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentum
-
-
-Error processing T with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_senError processing PEP with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentum
-Error processing BRK-B with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentumError processing CSCO with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cci
-Error processing JNJ with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentum
-
-
-
-
-Error processing TSLA with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsiError processing PFE with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %KError processing INTC with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_senError processing KO with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentumError processing CRM with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cci
-Error processing GOOGL with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentumError processing UNH with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsiError processing PG with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsi
-
-Error processing V with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cciError processing ADBE with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column roc
-
-Error processing DIS with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column rocError processing NKE with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cciError processing WMT with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column rocError processing NVDA with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cci
-
-Error processing PEP with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column rocError processing CSCO with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentum
-
-Error processing META with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentum
-Error processing AMZN with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentumError processing JNJ with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column roc
-
-
-Error processing TSLA with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %KError processing KO with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column roc
-
-Error processing GOOGL with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column roc
-Error processing MSFT with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cciError processing CVX with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column roc
-Error processing UNH with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %K
-
-
-
-Error processing INTC with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cciError processing DIS with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsi
-Error processing ADBE with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsi
-Error processing MA with EnvelopeChannelStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-Error processing WMT with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsiError processing META with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column roc
-Error processing T with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cci
-Error processing NFLX with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentum
-
-
-Error processing V with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentum
-Error processing JNJ with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsiError processing KO with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsi
-Error processing MSFT with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentumError processing JPM with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cci
-Error processing BAC with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cci
-Error processing BRK-B with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column roc
-
-Error processing TSLA with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) insteadError processing NVDA with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentumError processing INTC with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentum
-
-Error processing CVX with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsiError processing HD with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column roc
-
-Error processing AMZN with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column rocError processing DIS with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %K
-Error processing CRM with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentum
-
-Error processing NFLX with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column rocError processing AAPL with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentum
-
-
-Error processing JPM with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentumError processing PFE with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) instead
-Error processing PG with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %KError processing BAC with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentumError processing UNH with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) instead
-Error processing KO with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %K
-
-Error processing NVDA with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column roc
-Error processing ADBE with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %K
-Error processing INTC with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column roc
-Error processing BRK-B with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsi
-
-
-
-Error processing CVX with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %K
-
-
-
-Error processing JPM with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column rocError processing META with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsi
-
-Error processing NKE with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentumError processing BAC with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column rocError processing AMZN with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsi
-Error processing NFLX with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsiError processing GOOGL with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsiError processing DIS with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) instead
-Error processing JNJ with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %KError processing TSLA with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fastError processing PG with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) insteadError processing MA with IchimokuCloudStrategy: Cannot set a DataFrame with multiple columns to the single column tenkan_sen
-
-
-
-
-Error processing V with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column roc
-Error processing BRK-B with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %KError processing NVDA with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsi
-Error processing CSCO with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column rocError processing HD with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsi
-Error processing INTC with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsi
-Error processing UNH with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fast
-
-
-
-
-Error processing DIS with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fast
-Error processing PEP with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsiError processing WMT with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %KError processing T with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentum
-Error processing CVX with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) insteadError processing AMZN with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %K
-Error processing KO with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) instead
-Error processing AAPL with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column rocError processing TSLA with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_ma
-Error processing NFLX with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %K
-
-Error processing PFE with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fast
-
-
-Error processing NKE with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column roc
-
-Error processing BRK-B with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) insteadError processing XOM with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsiError processing META with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %K
-Error processing JPM with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsi
-
-Error processing MSFT with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column roc
-Error processing ADBE with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) instead
-Error processing JNJ with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) insteadError processing BAC with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsi
-Error processing WMT with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) instead
-Error processing PEP with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %K
-
-Error processing NVDA with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %K
-Error processing AMZN with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) insteadError processing HD with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %KError processing NFLX with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) instead
-Error processing MA with CCIStrategy: Cannot set a DataFrame with multiple columns to the single column cci
-Error processing GOOGL with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %KError processing INTC with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %KError processing V with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsi
-
-
-Error processing T with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column rocError processing BRK-B with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fast
-
-Error processing CVX with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fastError processing NKE with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsi
-Error processing TSLA with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
-Error processing META with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) insteadError processing KO with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fast
-Error processing WMT with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fast
-
-Error processing PFE with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_ma
-Error processing PG with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fastError processing UNH with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_maError processing DIS with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_ma
-Error processing AAPL with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsi
-
-Error processing NFLX with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fast
-
-
-
-Error processing XOM with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %KError processing ADBE with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fast
-Error processing JNJ with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fast
-Error processing MSFT with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsi
-Error processing V with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %K
-Error processing NKE with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %K
-
-
-Error processing INTC with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) insteadError processing MA with MomentumStrategy: Cannot set a DataFrame with multiple columns to the single column momentum
-Error processing UNH with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
-
-Error processing KO with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_ma
-Error processing CRM with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column rocError processing NVDA with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) insteadError processing PEP with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) instead
-Error processing HD with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) instead
-Error processing CSCO with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsi
-
-Error processing AAPL with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %KError processing BRK-B with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_ma
-Error processing NFLX with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_ma
-
-Error processing BAC with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %K
-Error processing AMZN with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fast
-Error processing MSFT with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %KError processing WMT with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_ma
-Error processing DIS with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
-Error processing PG with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_maError processing TSLA with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-Error processing KO with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
-
-Error processing XOM with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) instead
-Error processing NVDA with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fast
-Error processing GOOGL with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) insteadError processing PEP with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fast
-Error processing JPM with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %K
-Error processing ADBE with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_maError processing CSCO with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %K
-
-Error processing AAPL with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) instead
-
-
-Error processing V with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) instead
-Error processing AMZN with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_maError processing INTC with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fast
-Error processing MA with ROCStrategy: Cannot set a DataFrame with multiple columns to the single column rocError processing NKE with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) instead
-
-Error processing MSFT with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) instead
-
-Error processing HD with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fastError processing TSLA with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-
-Error processing META with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fastError processing JNJ with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_ma
-Error processing PFE with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
-Error processing CVX with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_maError processing PEP with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_maError processing DIS with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-
-Error processing WMT with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().Error processing AAPL with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fast
-Error processing PG with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().Error processing JPM with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) instead
-Error processing AMZN with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
-Error processing CSCO with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) instead
-
-
-Error processing MSFT with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fastError processing XOM with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fast
-
-Error processing BRK-B with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
-
-Error processing HD with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_maError processing ADBE with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
-Error processing MA with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsiError processing META with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_ma
-
-Error processing CRM with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsiError processing CVX with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
-
-
-Error processing DIS with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-Error processing PFE with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-Error processing CSCO with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fastError processing V with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fast
-
-Error processing WMT with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objectsError processing PG with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-
-Error processing TSLA with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_price
-Error processing NVDA with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_maError processing MSFT with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_maError processing JNJ with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
-Error processing AMZN with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-
-Error processing PEP with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
-
-
-
-Error processing MA with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %KError processing JPM with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fast
-Error processing UNH with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objectsError processing CRM with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %K
-Error processing BAC with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) instead
-Error processing AAPL with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_maError processing CSCO with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_ma
-Error processing PFE with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column maError processing NFLX with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
-
-Error processing HD with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().Error processing XOM with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_ma
-
-Error processing KO with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objectsError processing BRK-B with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-
-
-
-
-Error processing AMZN with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column maError processing INTC with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_maError processing NKE with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fastError processing ADBE with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-Error processing JNJ with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objectsError processing JPM with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_ma
-Error processing PEP with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-
-Error processing UNH with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column maError processing WMT with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-Error processing CRM with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) instead
-Error processing PG with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-Error processing TSLA with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing MSFT with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
-
-
-
-Error processing DIS with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_priceError processing KO with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column maError processing BRK-B with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-Error processing HD with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-
-Error processing AMZN with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_priceError processing NFLX with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-Error processing BAC with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fastError processing JPM with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().Error processing NKE with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_ma
-
-Error processing UNH with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_price
-Error processing PFE with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_priceError processing MA with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) instead
-
-Error processing PG with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_price
-Error processing PEP with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column maError processing CRM with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fast
-
-Error processing TSLA with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adl
-
-Error processing INTC with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
-
-Error processing GOOGL with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fast
-
-Error processing AAPL with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
-Error processing T with RSIStrategy: Cannot set a DataFrame with multiple columns to the single column rsiError processing DIS with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing WMT with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_priceError processing BAC with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_maError processing JNJ with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-Error processing HD with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-
-
-
-Error processing META with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().Error processing UNH with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing PFE with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-
-Error processing KO with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_priceError processing PG with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing V with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_ma
-Error processing JPM with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-Error processing CSCO with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
-Error processing AMZN with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing ADBE with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-Error processing NFLX with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column maError processing DIS with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adl
-Error processing T with StochasticOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column %KError processing JNJ with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_priceError processing CVX with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objectsError processing WMT with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-
-Error processing HD with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_priceError processing PEP with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_price
-
-
-Error processing BRK-B with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_price
-Error processing UNH with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adl
-
-Error processing PG with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adl
-Error processing KO with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column meanError processing V with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
-
-
-Error processing AMZN with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adlError processing TSLA with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmf
-
-Error processing BAC with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().Error processing MA with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fast
-Error processing CSCO with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objectsError processing AAPL with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-
-
-Error processing WMT with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adlError processing T with ADXStrategy: Data must be 1-dimensional, got ndarray of shape (1006, 2) instead
-Error processing CVX with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-
-Error processing HD with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing PFE with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adlError processing NVDA with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
-
-Error processing BRK-B with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column meanError processing XOM with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().Error processing KO with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adl
-Error processing NFLX with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_price
-
-Error processing UNH with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmf
-Error processing INTC with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-
-Error processing JNJ with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing MA with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_ma
-Error processing CSCO with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column maError processing AMZN with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmf
-Error processing CRM with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_maError processing CVX with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_price
-Error processing T with MACDStrategy: Cannot set a DataFrame with multiple columns to the single column ema_fast
-
-Error processing PEP with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing ADBE with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_price
-Error processing JPM with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-
-Error processing PG with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmfError processing NFLX with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-
-Error processing DIS with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmfError processing V with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-
-Error processing AAPL with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-Error processing KO with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmf
-Error processing NKE with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
-Error processing CRM with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().Error processing GOOGL with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_ma
-Error processing WMT with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmf
-
-Error processing META with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-Error processing UNH with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objectsError processing CVX with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing BRK-B with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adl
-
-
-
-Error processing PFE with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmfError processing INTC with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-Error processing MA with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().Error processing TSLA with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-Error processing AAPL with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_priceError processing V with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-
-
-Error processing PG with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objectsError processing XOM with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-Error processing BAC with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-
-Error processing AMZN with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objectsError processing NKE with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-Error processing CRM with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-Error processing NVDA with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objectsError processing CVX with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adl
-Error processing PEP with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adlError processing ADBE with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing NFLX with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adl
-Error processing JNJ with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adl
-
-Error processing BRK-B with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmf
-
-Error processing HD with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adl
-Error processing PFE with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-Error processing KO with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objectsError processing T with MovingAverageCrossover: Cannot set a DataFrame with multiple columns to the single column short_ma
-Error processing PG with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_short
-Error processing TSLA with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_shortError processing JPM with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_price
-Error processing BAC with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-
-
-
-Error processing NKE with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column maError processing ADBE with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adl
-Error processing INTC with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_priceError processing WMT with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-Error processing NVDA with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column maError processing MSFT with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objectsError processing PEP with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmf
-Error processing V with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_price
-Error processing GOOGL with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
-
-Error processing MA with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-
-
-Error processing UNH with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_shortError processing HD with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmfError processing PFE with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_short
-
-Error processing BAC with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_price
-Error processing CSCO with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_price
-Error processing NKE with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_price
-Error processing JPM with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-
-
-Error processing AAPL with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing MSFT with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-
-Error processing V with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column meanError processing ADBE with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmfError processing META with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-Error processing BRK-B with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-Error processing KO with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_short
-Error processing MA with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-
-Error processing CRM with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-
-
-
-Error processing NVDA with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_price
-Error processing CSCO with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-
-Error processing T with ParabolicSARStrategy: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().Error processing WMT with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_shortError processing BAC with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing XOM with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column maError processing INTC with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing META with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_price
-
-
-
-Error processing BRK-B with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_shortError processing GOOGL with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-
-
-Error processing ADBE with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-
-Error processing CSCO with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adlError processing NVDA with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column meanError processing NKE with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-
-
-Error processing JNJ with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmfError processing INTC with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adl
-Error processing CVX with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmfError processing PEP with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-
-
-Error processing META with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column meanError processing T with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-Error processing MSFT with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_priceError processing GOOGL with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column ma
-Error processing NFLX with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmf
-
-
-Error processing NVDA with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adl
-Error processing XOM with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_price
-Error processing ADBE with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_shortError processing MA with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_price
-
-
-Error processing CSCO with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmfError processing V with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adl
-Error processing JNJ with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objectsError processing JPM with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adl
-
-Error processing BAC with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adlError processing MSFT with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column meanError processing T with BollingerBandsStrategy: Cannot set a DataFrame with multiple columns to the single column maError processing CVX with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-
-Error processing NKE with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adl
-Error processing CRM with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_price
-
-Error processing PEP with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_short
-Error processing META with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adlError processing INTC with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmf
-Error processing MA with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing GOOGL with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_price
-
-
-Error processing AMZN with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_short
-Error processing MSFT with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adl
-
-
-Error processing JPM with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmfError processing DIS with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-Error processing CRM with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column meanError processing AAPL with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adl
-
-Error processing XOM with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing NVDA with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmf
-
-
-Error processing T with KeltnerChannelStrategy: Cannot set a DataFrame with multiple columns to the single column typical_price
-
-Error processing JNJ with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_short
-Error processing HD with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-
-
-
-Error processing MA with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adl
-Error processing META with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmfError processing NFLX with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-Error processing BAC with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmf
-Error processing CRM with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adlError processing GOOGL with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column meanError processing NKE with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmfError processing DIS with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_short
-Error processing MSFT with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmfError processing V with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmf
-Error processing XOM with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adl
-
-Error processing NVDA with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objectsError processing HD with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_short
-Error processing CSCO with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-
-Error processing T with StdDevStrategy: Cannot set a DataFrame with multiple columns to the single column mean
-Error processing INTC with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objectsError processing NFLX with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_short
-
-Error processing GOOGL with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adl
-Error processing BAC with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-Error processing CRM with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmf
-
-
-Error processing CVX with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_short
-
-Error processing NVDA with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_short
-
-Error processing MA with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmfError processing CSCO with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_short
-
-Error processing META with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-Error processing INTC with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_shortError processing AAPL with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmfError processing T with AccumulationDistributionStrategy: Cannot set a DataFrame with multiple columns to the single column adl
-Error processing V with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objectsError processing BAC with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_short
-Error processing NKE with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-Error processing XOM with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmf
-
-
-
-
-Error processing CRM with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-Error processing JPM with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-
-
-
-
-Error processing AAPL with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-Error processing MSFT with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objectsError processing META with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_shortError processing MA with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objectsError processing T with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmfError processing NKE with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_shortError processing CRM with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_short
-
-Error processing XOM with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-
-
-Error processing AAPL with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_shortError processing V with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_short
-Error processing MSFT with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_short
-Error processing MA with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_short
-
-
-
-Error processing JPM with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_short
-
-
-
-Error processing XOM with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_short
-
-
-
-Error processing GOOGL with ChaikinMoneyFlowStrategy: Cannot set a DataFrame with multiple columns to the single column cmf
-Error processing T with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-Error processing T with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_short
-Error processing GOOGL with ATRStrategy: Can only compare identically-labeled (both index and columns) DataFrame objects
-Error processing GOOGL with VolumeOscillatorStrategy: Cannot set a DataFrame with multiple columns to the single column vol_short
-
-=== Results for PG ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-=== Results for TSLA ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-=== Results for PFE ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-=== Results for KO ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-=== Results for WMT ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-=== Results for UNH ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-=== Results for BRK-B ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-=== Results for PEP ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-=== Results for ADBE ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-=== Results for AMZN ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-=== Results for DIS ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-=== Results for CVX ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-=== Results for NVDA ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-=== Results for HD ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-=== Results for JNJ ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-=== Results for BAC ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-=== Results for NFLX ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-=== Results for CSCO ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-=== Results for INTC ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-=== Results for CRM ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-=== Results for META ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
+[MLStubStrategy] Input index: <class 'pandas.core.indexes.datetimes.DatetimeIndex'>
+[MLStubStrategy] Input head:
+Price           Close       High        Low       Open     Volume
+Date                                                             
+2020-01-02  72.620842  72.681289  71.373218  71.627092  135480400
+2020-01-03  71.914803  72.676431  71.689942  71.847102  146322800
+2020-01-06  72.487854  72.526541  70.783256  71.034717  118387200
+[MLStubStrategy] signal counts:
+ signal
+0    1006
+Name: count, dtype: int64
+
+[PatternRecognizerStrategy] Input index: <class 'pandas.core.indexes.datetimes.DatetimeIndex'>
+[PatternRecognizerStrategy] Input head:
+Price           Close       High        Low       Open     Volume
+Date                                                             
+2020-01-02  72.620842  72.681289  71.373218  71.627092  135480400
+2020-01-03  71.914803  72.676431  71.689942  71.847102  146322800
+2020-01-06  72.487854  72.526541  70.783256  71.034717  118387200
+[PatternRecognizerStrategy] signal counts:
+ signal
+ 0    481
+-1    263
+ 1    262
+Name: count, dtype: int64
+
+[QuantileBandsStrategy] Input index: <class 'pandas.core.indexes.datetimes.DatetimeIndex'>
+[QuantileBandsStrategy] Input head:
+Price           Close       High        Low       Open     Volume
+Date                                                             
+2020-01-02  72.620842  72.681289  71.373218  71.627092  135480400
+2020-01-03  71.914803  72.676431  71.689942  71.847102  146322800
+2020-01-06  72.487854  72.526541  70.783256  71.034717  118387200
+[QuantileBandsStrategy] signal counts:
+ signal
+ 0    584
+-1    283
+ 1    139
+Name: count, dtype: int64
+
+[ZScoreStrategy] Input index: <class 'pandas.core.indexes.datetimes.DatetimeIndex'>
+[ZScoreStrategy] Input head:
+Price           Close       High        Low       Open     Volume
+Date                                                             
+2020-01-02  72.620842  72.681289  71.373218  71.627092  135480400
+2020-01-03  71.914803  72.676431  71.689942  71.847102  146322800
+2020-01-06  72.487854  72.526541  70.783256  71.034717  118387200
+[ZScoreStrategy] zscore type: <class 'pandas.core.series.Series'>
+[ZScoreStrategy] signal counts:
+ signal
+ 0    685
+-1    222
+ 1     99
+Name: count, dtype: int64
+
+[DonchianChannelStrategy] Input index: <class 'pandas.core.indexes.datetimes.DatetimeIndex'>
+[DonchianChannelStrategy] Input head:
+Price           Close       High        Low       Open     Volume
+Date                                                             
+2020-01-02  72.620842  72.681289  71.373218  71.627092  135480400
+2020-01-03  71.914803  72.676431  71.689942  71.847102  146322800
+2020-01-06  72.487854  72.526541  70.783256  71.034717  118387200
+[DonchianChannelStrategy] signal counts:
+ signal
+0    1006
+Name: count, dtype: int64
+
+[EnvelopeChannelStrategy] Input index: <class 'pandas.core.indexes.datetimes.DatetimeIndex'>
+[EnvelopeChannelStrategy] Input head:
+Price           Close       High        Low       Open     Volume
+Date                                                             
+2020-01-02  72.620842  72.681289  71.373218  71.627092  135480400
+2020-01-03  71.914803  72.676431  71.689942  71.847102  146322800
+2020-01-06  72.487854  72.526541  70.783256  71.034717  118387200
+[EnvelopeChannelStrategy] signal counts:
+ signal
+-1    392
+ 0    388
+ 1    226
+Name: count, dtype: int64
+
+[IchimokuCloudStrategy] Input index: <class 'pandas.core.indexes.datetimes.DatetimeIndex'>
+[IchimokuCloudStrategy] Input head:
+Price           Close       High        Low       Open     Volume
+Date                                                             
+2020-01-02  72.620842  72.681289  71.373218  71.627092  135480400
+2020-01-03  71.914803  72.676431  71.689942  71.847102  146322800
+2020-01-06  72.487854  72.526541  70.783256  71.034717  118387200
+[IchimokuCloudStrategy] signal counts:
+ signal
+ 1    545
+-1    303
+ 0    158
+Name: count, dtype: int64
+
+[CCIStrategy] Input index: <class 'pandas.core.indexes.datetimes.DatetimeIndex'>
+[CCIStrategy] Input head:
+Price           Close       High        Low       Open     Volume
+Date                                                             
+2020-01-02  72.620842  72.681289  71.373218  71.627092  135480400
+2020-01-03  71.914803  72.676431  71.689942  71.847102  146322800
+2020-01-06  72.487854  72.526541  70.783256  71.034717  118387200
+[CCIStrategy] signal counts:
+ signal
+ 0    540
+-1    322
+ 1    144
+Name: count, dtype: int64
+
+[MomentumStrategy] Input index: <class 'pandas.core.indexes.datetimes.DatetimeIndex'>
+[MomentumStrategy] Input head:
+Price           Close       High        Low       Open     Volume
+Date                                                             
+2020-01-02  72.620842  72.681289  71.373218  71.627092  135480400
+2020-01-03  71.914803  72.676431  71.689942  71.847102  146322800
+2020-01-06  72.487854  72.526541  70.783256  71.034717  118387200
+[MomentumStrategy] signal counts:
+ signal
+ 1    610
+-1    386
+ 0     10
+Name: count, dtype: int64
+
+[ROCStrategy] Input index: <class 'pandas.core.indexes.datetimes.DatetimeIndex'>
+[ROCStrategy] Input head:
+Price           Close       High        Low       Open     Volume
+Date                                                             
+2020-01-02  72.620842  72.681289  71.373218  71.627092  135480400
+2020-01-03  71.914803  72.676431  71.689942  71.847102  146322800
+2020-01-06  72.487854  72.526541  70.783256  71.034717  118387200
+[ROCStrategy] signal counts:
+ signal
+ 1    607
+-1    385
+ 0     14
+Name: count, dtype: int64
+[ROCStrategy] Sample ROC values:
+ Date
+2020-01-21    5.400366
+2020-01-22    6.815074
+2020-01-23    6.480978
+Name: roc, dtype: float64
+
+[RSIStrategy] Input index: <class 'pandas.core.indexes.datetimes.DatetimeIndex'>
+[RSIStrategy] Input head:
+Price           Close       High        Low       Open     Volume
+Date                                                             
+2020-01-02  72.620842  72.681289  71.373218  71.627092  135480400
+2020-01-03  71.914803  72.676431  71.689942  71.847102  146322800
+2020-01-06  72.487854  72.526541  70.783256  71.034717  118387200
+[RSIStrategy] signal counts:
+ signal
+ 0    730
+-1    198
+ 1     78
+Name: count, dtype: int64
+
+[StochasticOscillatorStrategy] Input index: <class 'pandas.core.indexes.datetimes.DatetimeIndex'>
+[StochasticOscillatorStrategy] Input head:
+Price           Close       High        Low       Open     Volume
+Date                                                             
+2020-01-02  72.620842  72.681289  71.373218  71.627092  135480400
+2020-01-03  71.914803  72.676431  71.689942  71.847102  146322800
+2020-01-06  72.487854  72.526541  70.783256  71.034717  118387200
+[StochasticOscillatorStrategy] signal counts:
+ signal
+-1    498
+ 1    493
+ 0     15
+Name: count, dtype: int64
+[StochasticOscillatorStrategy] Sample %K and %D:
+ Price              %K         %D
+Date                            
+2020-01-24  83.584071  90.795775
+2020-01-27  45.051706  75.281905
+2020-01-28  78.448531  69.028103
+
+[ADXStrategy] Input index: <class 'pandas.core.indexes.datetimes.DatetimeIndex'>
+[ADXStrategy] Input head:
+Price           Close       High        Low       Open     Volume
+Date                                                             
+2020-01-02  72.620842  72.681289  71.373218  71.627092  135480400
+2020-01-03  71.914803  72.676431  71.689942  71.847102  146322800
+2020-01-06  72.487854  72.526541  70.783256  71.034717  118387200
+[ADXStrategy] signal counts:
+ signal
+ 0    613
+-1    211
+ 1    182
+Name: count, dtype: int64
+
+[MACDStrategy] Input index: <class 'pandas.core.indexes.datetimes.DatetimeIndex'>
+[MACDStrategy] Input head:
+Price           Close       High        Low       Open     Volume
+Date                                                             
+2020-01-02  72.620842  72.681289  71.373218  71.627092  135480400
+2020-01-03  71.914803  72.676431  71.689942  71.847102  146322800
+2020-01-06  72.487854  72.526541  70.783256  71.034717  118387200
+[MACDStrategy] signal counts:
+ signal
+ 1    507
+-1    498
+ 0      1
+Name: count, dtype: int64
+
+[MovingAverageCrossover] Input index: <class 'pandas.core.indexes.datetimes.DatetimeIndex'>
+[MovingAverageCrossover] Input head:
+Price           Close       High        Low       Open     Volume
+Date                                                             
+2020-01-02  72.620842  72.681289  71.373218  71.627092  135480400
+2020-01-03  71.914803  72.676431  71.689942  71.847102  146322800
+2020-01-06  72.487854  72.526541  70.783256  71.034717  118387200
+[MovingAverageCrossover] signal counts:
+ signal
+ 1    616
+ 0    199
+-1    191
+Name: count, dtype: int64
+
+[ParabolicSARStrategy] Input index: <class 'pandas.core.indexes.datetimes.DatetimeIndex'>
+[ParabolicSARStrategy] Input head:
+Price           Close       High        Low       Open     Volume
+Date                                                             
+2020-01-02  72.620842  72.681289  71.373218  71.627092  135480400
+2020-01-03  71.914803  72.676431  71.689942  71.847102  146322800
+2020-01-06  72.487854  72.526541  70.783256  71.034717  118387200
+[ParabolicSARStrategy] signal counts:
+ signal
+ 1    582
+-1    423
+ 0      1
+Name: count, dtype: int64
+
+[ATRStrategy] Input index: <class 'pandas.core.indexes.datetimes.DatetimeIndex'>
+[ATRStrategy] Input head:
+Price           Close       High        Low       Open     Volume
+Date                                                             
+2020-01-02  72.620842  72.681289  71.373218  71.627092  135480400
+2020-01-03  71.914803  72.676431  71.689942  71.847102  146322800
+2020-01-06  72.487854  72.526541  70.783256  71.034717  118387200
+[ATRStrategy] signal counts:
+ signal
+ 0    963
+ 1     25
+-1     18
+Name: count, dtype: int64
+
+[BollingerBandsStrategy] Input index: <class 'pandas.core.indexes.datetimes.DatetimeIndex'>
+[BollingerBandsStrategy] Input head:
+Price           Close       High        Low       Open     Volume
+Date                                                             
+2020-01-02  72.620842  72.681289  71.373218  71.627092  135480400
+2020-01-03  71.914803  72.676431  71.689942  71.847102  146322800
+2020-01-06  72.487854  72.526541  70.783256  71.034717  118387200
+[BollingerBandsStrategy] signal counts:
+ signal
+ 0    904
+-1     64
+ 1     38
+Name: count, dtype: int64
+
+[KeltnerChannelStrategy] Input index: <class 'pandas.core.indexes.datetimes.DatetimeIndex'>
+[KeltnerChannelStrategy] Input head:
+Price           Close       High        Low       Open     Volume
+Date                                                             
+2020-01-02  72.620842  72.681289  71.373218  71.627092  135480400
+2020-01-03  71.914803  72.676431  71.689942  71.847102  146322800
+2020-01-06  72.487854  72.526541  70.783256  71.034717  118387200
+[KeltnerChannelStrategy] signal counts:
+ signal
+ 0    696
+-1    222
+ 1     88
+Name: count, dtype: int64
+
+[StdDevStrategy] Input index: <class 'pandas.core.indexes.datetimes.DatetimeIndex'>
+[StdDevStrategy] Input head:
+Price           Close       High        Low       Open     Volume
+Date                                                             
+2020-01-02  72.620842  72.681289  71.373218  71.627092  135480400
+2020-01-03  71.914803  72.676431  71.689942  71.847102  146322800
+2020-01-06  72.487854  72.526541  70.783256  71.034717  118387200
+[StdDevStrategy] signal counts:
+ signal
+ 0    904
+-1     64
+ 1     38
+Name: count, dtype: int64
+
+[AccumulationDistributionStrategy] Input index: <class 'pandas.core.indexes.datetimes.DatetimeIndex'>
+[AccumulationDistributionStrategy] Input head:
+Price           Close       High        Low       Open     Volume
+Date                                                             
+2020-01-02  72.620842  72.681289  71.373218  71.627092  135480400
+2020-01-03  71.914803  72.676431  71.689942  71.847102  146322800
+2020-01-06  72.487854  72.526541  70.783256  71.034717  118387200
+[AccumulationDistributionStrategy] signal counts:
+ signal
+ 1    671
+-1    334
+ 0      1
+Name: count, dtype: int64
+
+[ChaikinMoneyFlowStrategy] Input index: <class 'pandas.core.indexes.datetimes.DatetimeIndex'>
+[ChaikinMoneyFlowStrategy] Input head:
+Price           Close       High        Low       Open     Volume
+Date                                                             
+2020-01-02  72.620842  72.681289  71.373218  71.627092  135480400
+2020-01-03  71.914803  72.676431  71.689942  71.847102  146322800
+2020-01-06  72.487854  72.526541  70.783256  71.034717  118387200
+[ChaikinMoneyFlowStrategy] signal counts:
+ signal
+ 1    654
+-1    333
+ 0     19
+Name: count, dtype: int64
+
+[OBRStrategy] Input index: <class 'pandas.core.indexes.datetimes.DatetimeIndex'>
+[OBRStrategy] Input head:
+Price           Close       High        Low       Open     Volume
+Date                                                             
+2020-01-02  72.620842  72.681289  71.373218  71.627092  135480400
+2020-01-03  71.914803  72.676431  71.689942  71.847102  146322800
+2020-01-06  72.487854  72.526541  70.783256  71.034717  118387200
+[OBRStrategy] signal counts:
+ signal
+ 0    963
+ 1     25
+-1     18
+Name: count, dtype: int64
+
+[VolumeOscillatorStrategy] Input index: <class 'pandas.core.indexes.datetimes.DatetimeIndex'>
+[VolumeOscillatorStrategy] Input head:
+Price           Close       High        Low       Open     Volume
+Date                                                             
+2020-01-02  72.620842  72.681289  71.373218  71.627092  135480400
+2020-01-03  71.914803  72.676431  71.689942  71.847102  146322800
+2020-01-06  72.487854  72.526541  70.783256  71.034717  118387200
+[VolumeOscillatorStrategy] signal counts:
+ signal
+-1    553
+ 1    434
+ 0     19
+Name: count, dtype: int64
 
 === Results for AAPL ===
 --- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
+Price            Close  signal
+Date                          
+2023-12-22  192.192551       0
+2023-12-26  191.646545       0
+2023-12-27  191.745819       0
+2023-12-28  192.172699       0
+2023-12-29  191.130325       0
+--- PatternRecognizerStrategy Sample Output ---
+Price            Close  signal
+Date                          
+2023-12-22  192.192551       0
+2023-12-26  191.646545       0
+2023-12-27  191.745819       1
+2023-12-28  192.172699      -1
+2023-12-29  191.130325       0
+--- QuantileBandsStrategy Sample Output ---
+Price            Close  signal
+Date                          
+2023-12-22  192.192551       0
+2023-12-26  191.646545       0
+2023-12-27  191.745819       0
+2023-12-28  192.172699       0
+2023-12-29  191.130325       0
+--- ZScoreStrategy Sample Output ---
+Price            Close  signal
+Date                          
+2023-12-22  192.192551       0
+2023-12-26  191.646545       0
+2023-12-27  191.745819       0
+2023-12-28  192.172699       0
+2023-12-29  191.130325       0
+--- DonchianChannelStrategy Sample Output ---
+Price            Close  signal
+Date                          
+2023-12-22  192.192551       0
+2023-12-26  191.646545       0
+2023-12-27  191.745819       0
+2023-12-28  192.172699       0
+2023-12-29  191.130325       0
+--- EnvelopeChannelStrategy Sample Output ---
+Price            Close  signal
+Date                          
+2023-12-22  192.192551       0
+2023-12-26  191.646545       0
+2023-12-27  191.745819       0
+2023-12-28  192.172699       0
+2023-12-29  191.130325       0
+--- IchimokuCloudStrategy Sample Output ---
+Price            Close  signal
+Date                          
+2023-12-22  192.192551       1
+2023-12-26  191.646545       1
+2023-12-27  191.745819       1
+2023-12-28  192.172699       1
+2023-12-29  191.130325       1
+--- CCIStrategy Sample Output ---
+Price            Close  signal
+Date                          
+2023-12-22  192.192551       0
+2023-12-26  191.646545       0
+2023-12-27  191.745819       0
+2023-12-28  192.172699       0
+2023-12-29  191.130325       0
+--- MomentumStrategy Sample Output ---
+Price            Close  signal
+Date                          
+2023-12-22  192.192551      -1
+2023-12-26  191.646545      -1
+2023-12-27  191.745819      -1
+2023-12-28  192.172699      -1
+2023-12-29  191.130325      -1
+--- ROCStrategy Sample Output ---
+Price            Close  signal
+Date                          
+2023-12-22  192.192551       1
+2023-12-26  191.646545      -1
+2023-12-27  191.745819      -1
+2023-12-28  192.172699       1
+2023-12-29  191.130325      -1
+--- RSIStrategy Sample Output ---
+Price            Close  signal
+Date                          
+2023-12-22  192.192551       0
+2023-12-26  191.646545       0
+2023-12-27  191.745819       0
+2023-12-28  192.172699       0
+2023-12-29  191.130325       0
+--- StochasticOscillatorStrategy Sample Output ---
+Price            Close  signal
+Date                          
+2023-12-22  192.192551      -1
+2023-12-26  191.646545      -1
+2023-12-27  191.745819      -1
+2023-12-28  192.172699       1
+2023-12-29  191.130325      -1
+--- ADXStrategy Sample Output ---
+Price            Close  signal
+Date                          
+2023-12-22  192.192551       1
+2023-12-26  191.646545       1
+2023-12-27  191.745819       1
+2023-12-28  192.172699       1
+2023-12-29  191.130325       1
+--- MACDStrategy Sample Output ---
+Price            Close  signal
+Date                          
+2023-12-22  192.192551      -1
+2023-12-26  191.646545      -1
+2023-12-27  191.745819      -1
+2023-12-28  192.172699      -1
+2023-12-29  191.130325      -1
+--- MovingAverageCrossover Sample Output ---
+Price            Close  signal
+Date                          
+2023-12-22  192.192551       1
+2023-12-26  191.646545       1
+2023-12-27  191.745819       1
+2023-12-28  192.172699       1
+2023-12-29  191.130325       1
+--- ParabolicSARStrategy Sample Output ---
+Price            Close  signal
+Date                          
+2023-12-22  192.192551      -1
+2023-12-26  191.646545      -1
+2023-12-27  191.745819      -1
+2023-12-28  192.172699      -1
+2023-12-29  191.130325      -1
+--- ATRStrategy Sample Output ---
+Price            Close  signal
+Date                          
+2023-12-22  192.192551       0
+2023-12-26  191.646545       0
+2023-12-27  191.745819       0
+2023-12-28  192.172699       0
+2023-12-29  191.130325       0
+--- BollingerBandsStrategy Sample Output ---
+Price            Close  signal
+Date                          
+2023-12-22  192.192551       0
+2023-12-26  191.646545       0
+2023-12-27  191.745819       0
+2023-12-28  192.172699       0
+2023-12-29  191.130325       0
+--- KeltnerChannelStrategy Sample Output ---
+Price            Close  signal
+Date                          
+2023-12-22  192.192551       0
+2023-12-26  191.646545       0
+2023-12-27  191.745819       0
+2023-12-28  192.172699       0
+2023-12-29  191.130325       0
+--- StdDevStrategy Sample Output ---
+Price            Close  signal
+Date                          
+2023-12-22  192.192551       0
+2023-12-26  191.646545       0
+2023-12-27  191.745819       0
+2023-12-28  192.172699       0
+2023-12-29  191.130325       0
+--- AccumulationDistributionStrategy Sample Output ---
+Price            Close  signal
+Date                          
+2023-12-22  192.192551       1
+2023-12-26  191.646545       1
+2023-12-27  191.745819       1
+2023-12-28  192.172699       1
+2023-12-29  191.130325       1
+--- ChaikinMoneyFlowStrategy Sample Output ---
+Price            Close  signal
+Date                          
+2023-12-22  192.192551       1
+2023-12-26  191.646545       1
+2023-12-27  191.745819       1
+2023-12-28  192.172699       1
+2023-12-29  191.130325       1
+--- OBRStrategy Sample Output ---
+Price            Close  signal
+Date                          
+2023-12-22  192.192551       0
+2023-12-26  191.646545       0
+2023-12-27  191.745819       0
+2023-12-28  192.172699       0
+2023-12-29  191.130325       0
+--- VolumeOscillatorStrategy Sample Output ---
+Price            Close  signal
+Date                          
+2023-12-22  192.192551      -1
+2023-12-26  191.646545      -1
+2023-12-27  191.745819      -1
+2023-12-28  192.172699      -1
+2023-12-29  191.130325      -1
 
-=== Results for V ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-=== Results for MSFT ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-=== Results for NKE ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-=== Results for JPM ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-=== Results for MA ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-=== Results for XOM ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-=== Results for T ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-=== Results for GOOGL ===
---- MLStubStrategy Sample Output ---
-Price            Close             signal
-Ticker           BRK-B        META       
-Date                                     
-2023-12-22  356.470001  351.732300      0
-2023-12-26  356.829987  353.165497      0
-2023-12-27  356.950012  356.151459      0
-2023-12-28  357.570007  356.639130      0
-2023-12-29  356.660004  352.299561      0
-
-[2025-05-30 22:09:11.151353] Strategy processing completed.
+[2025-05-31 11:56:43.580536] Strategy processing completed.

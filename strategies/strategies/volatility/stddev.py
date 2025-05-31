@@ -8,10 +8,35 @@ class StdDevStrategy(Strategy):
 
     def generate_signals(self, data: pd.DataFrame) -> pd.DataFrame:
         df = data.copy()
-        df['mean'] = df['Close'].rolling(self.period).mean()
-        df['std'] = df['Close'].rolling(self.period).std()
-        df['zscore'] = (df['Close'] - df['mean']) / df['std']
+
+        # Flatten MultiIndex columns if necessary
+        if isinstance(df.columns, pd.MultiIndex):
+            df.columns = df.columns.get_level_values(0)
+
+        print("\n[StdDevStrategy] Input index:", type(df.index))
+        print("[StdDevStrategy] Input head:")
+        print(df.head(3))
+
+        # Calculate rolling mean and standard deviation
+        mean = df['Close'].rolling(self.period).mean()
+        std = df['Close'].rolling(self.period).std()
+
+        # Compute z-score
+        zscore = (df['Close'] - mean) / std
+        if isinstance(zscore, pd.DataFrame):
+            print("[StdDevStrategy] zscore is a DataFrame — flattening it.")
+            zscore = zscore.iloc[:, 0]
+
+        # Assign calculated columns
+        df['mean'] = mean
+        df['std'] = std
+        df['zscore'] = zscore
+
+        # Generate signals
         df['signal'] = 0
-        df.loc[df['zscore'] > self.threshold, 'signal'] = -1
-        df.loc[df['zscore'] < -self.threshold, 'signal'] = 1
+        df.loc[zscore > self.threshold, 'signal'] = -1
+        df.loc[zscore < -self.threshold, 'signal'] = 1
+
+        print("[StdDevStrategy] signal counts:\n", df['signal'].value_counts())
+
         return df
