@@ -1,7 +1,44 @@
 {
-    "tickers": [
-        "AAPL"
-    ],
-    "start_date": "2020-01-01",
-    "end_date": "2024-01-01"
+  "tickers": [
+    "AAPL", "MSFT", "GOOGL", "AMZN", "META", "TSLA", "NVDA", "BRK-B", "JPM", "V",
+    "JNJ", "WMT", "PG", "MA", "UNH", "HD", "DIS", "PFE", "BAC", "PEP",
+    "XOM", "KO", "INTC", "CSCO", "ADBE", "CVX", "T", "ABBV", "MRK", "CMCSA",
+    "ABT", "CRM", "NFLX", "MCD", "NKE", "TMO", "DHR", "TXN", "ACN", "LIN",
+    "AVGO", "NEE", "COST", "ORCL", "AMD", "WFC", "HON", "PM", "IBM", "BA",
+    "QCOM", "LLY", "UPS", "AMGN", "SBUX", "RTX", "BMY", "GILD", "LOW", "INTU",
+    "UNP", "CVS", "GE", "CAT", "BLK", "AXP", "USB", "ISRG", "MDT", "DE",
+    "MS", "SPGI", "LMT", "TGT", "ZTS", "NOW", "ADP", "CI", "VRTX", "SYK",
+    "PLD", "MO", "MDLZ", "ADI", "MU", "REGN", "ATVI", "C", "PNC", "BK",
+    "ETN", "ICE", "MMC", "FIS", "SCHW", "ITW", "CB", "CSX", "GM", "NSC",
+    "SO", "BDX", "CL", "SHW", "PSX", "GD", "EL", "APD", "HCA", "EW",
+    "D", "AON", "FDX", "EMR", "ADSK", "TFC", "AEP", "COF", "F", "ROP",
+    "MCO", "ECL", "HPQ", "SPG", "XEL", "MAR", "SRE", "WMB", "DOW", "KMB",
+    "BIIB", "HUM", "PAYX", "MET", "IDXX", "ROST", "KLAC", "STZ", "PCAR", "TEL",
+    "WELL", "EXC", "TRV", "ORLY", "MSI", "A", "AZO", "PSA", "MNST", "CTSH",
+    "APH", "ALXN", "VRSK", "CDNS", "VLO", "TT", "YUM", "ILMN", "IQV", "PRU",
+    "FISV", "EBAY", "AFL", "HIG", "DLR", "BAX", "ODFL", "WST", "WDC", "CTAS",
+    "CNC", "WAT", "PPG", "FLT", "TSCO", "VFC", "RSG", "KEYS", "MTD", "ANET",
+    "DRI", "AVB", "TDY", "CAG", "ZBRA", "UAL", "CHD", "NTRS", "LHX", "KHC",
+    "ULTA", "KMI", "AKAM", "EIX", "MAA", "MLM", "BR", "SJM", "CAH", "IFF",
+    "PAYC", "CPRT", "CMS", "BF-B", "HSIC", "HPE", "VTR", "AEE", "AES", "CDW",
+    "EXPE", "COO", "XYL", "ARE", "TSN", "JKHY", "STE", "MTB", "CINF", "NDAQ",
+    "ABC", "DRE", "ESS", "ROL", "PPL", "CBOE", "HES", "FE", "CTLT", "HII",
+    "LKQ", "MKTX", "CHRW", "REG", "INVH", "BXP", "TAP", "NI", "LNT", "ALLE",
+    "IRM", "CFG", "NRG", "UAL", "DGX", "UHS", "HRL", "ETSY", "WRB", "DISH",
+    "IP", "NCLH", "FTV", "XRAY", "ZION", "CMA", "MHK", "BBWI", "BWA", "SEE",
+    "FRT", "BEN", "NWL", "RL", "NWS", "FOX", "MOS", "AIZ", "PVH", "HII",
+    "AAP", "LEG", "PNR", "WHR", "DXC", "ALK", "HAS", "JWN", "KSS", "AAL",
+    "UAA", "UA", "NLSN", "NWSA", "M", "FL", "GPS", "CPB", "LB", "HBI",
+    "MAT", "K", "HRB", "ODP", "TGI", "GME", "AMC", "BB", "RIVN", "LCID",
+    "PLTR", "BIDU", "BABA", "JD", "PDD", "NTES", "TME", "IQ", "HUYA", "YUMC",
+    "EDU", "DOYU", "BEKE", "TAL", "WB", "ZTO", "ATHM", "MOMO", "BILI", "NIO",
+    "XPEV", "LI", "TSM", "ASML", "NXPI", "ERIC", "NOK", "STM", "QCOM", "TXN",
+    "INTC", "MU", "WDC", "AMAT", "LRCX", "KLAC", "NVDA", "AVGO", "ADI", "MPWR",
+    "SWKS", "QRVO", "SMTC", "ON", "MCHP", "MRVL", "XLNX", "ALTR", "CY", "IDTI"
+  ],
+  "start_date": "2018-01-01",
+  "end_date": "2024-01-01"
 }
+
+
+
