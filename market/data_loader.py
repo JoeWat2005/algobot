@@ -2,6 +2,7 @@ import json
 import yfinance as yf
 import pandas as pd
 import time
+import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 class Market:
@@ -38,7 +39,12 @@ class Market:
         print(f"[{ticker}] All {self.max_retries} attempts failed.")
         return ticker, None
 
-    def get_all_data(self, max_workers=64):
+    def get_all_data(self, max_workers=None):
+        if max_workers is None:
+            max_workers = min(32, (os.cpu_count() or 1) + 4)
+
+        print(f"Using max_workers = {max_workers} for downloading...")
+
         data = {}
         with ThreadPoolExecutor(max_workers=max_workers) as executor:
             futures = [executor.submit(self._download_single_ticker, ticker) for ticker in self.tickers]
